@@ -10,20 +10,18 @@ function App() {
       <div>
       
         <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src="src/assets/mcl.jpeg" className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>WELCOME TO MCLOVINS PAGE</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          CLICK ME! {count}
+         SEND MC'LOVIN LOVE {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+       Hello My Name is Mv Lovin and this is my 10 minute react project!
       </p>
     </div>
   )
